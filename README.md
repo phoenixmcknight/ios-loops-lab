@@ -341,7 +341,11 @@ outerloop: for x in 1...3 {
     }
 }
 ```
+x = 1 y = 1
+x = 2 y = 1
+x = 3 y = 1
 
+y == 2 will make the y value stay at y = 1 while the x value increase by 1 every loop. 
 ***
 ## Question 20
 
