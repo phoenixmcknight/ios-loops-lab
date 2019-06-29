@@ -417,6 +417,16 @@ Output:
 ***
 ***
 ```
+let N = 3
+for _ in 1...N {
+print("***", separator: " ", terminator: "")
+for _ in 1...N {
+print("", separator: "", terminator: "")
+}
+print("")
+}
+
+
 
 Hint 1
 Try printing a single line of * first.
